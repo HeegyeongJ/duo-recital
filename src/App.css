@@ -4,12 +4,129 @@
   object-fit: cover;
   object-position: center center;
 }
+.display-font {
+  font-family: "Playfair Display", serif !important;
+}
+.bold {
+  font-weight: 600;
+}
+/* Navigation */
+.Navigation {
+  right: 5px !important;
+  top: 90% !important;
+  transform: translate(0, 0) !important;
+}
 .Navigation-Anchor {
   background-color: #150e01 !important;
   padding: 3.5px !important;
   margin: 7px !important;
 }
+/* Section */
+.Section {
+  position: relative;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  padding: 0 30px;
+  overflow: hidden;
+}
+.Section:first-of-type,
+.Section:last-of-type {
+  padding: 0;
+}
+.section-title {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #150e01;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+}
 
+/* Musician */
+.musician-list {
+  width: 100%;
+  margin: 35px 0;
+}
+.musician-li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 50px;
+  font-family: "Noto Serif KR", serif;
+}
+.musician-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.musician-img img {
+  width: 100%;
+  height: 100%;
+  scale: 1.2;
+  object-fit: cover;
+  object-position: 0 10px;
+}
+.musician-info {
+  flex: 0 1 60%;
+}
+.musician-info > em {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.musician-profiles {
+  list-style: disc;
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+/* programs */
+.bg-flower-top {
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  width: 86px;
+  height: auto;
+  transform: rotate(25deg);
+}
+.bg-flower-bottom {
+  position: absolute;
+  bottom: 0;
+  right: -5px;
+  width: 120px;
+  height: auto;
+}
+.bg-flower-bottom > img {
+  width: 100%;
+  height: 100%;
+}
+.programs {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.program-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dedede;
+}
+.program-info p {
+  font-family: "Noto Serif KR", serif;
+}
+.program-description {
+  margin-top: 18px;
+  font-family: "Noto Serif KR", serif;
+  font-size: 12px;
+  line-height: 2;
+}
+
+/* last */
 .back-cover {
   display: flex;
   justify-content: center;
