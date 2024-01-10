@@ -5,7 +5,6 @@ import Musicians from "./pages/Musicians/Musicians";
 import FirstProgram from "./pages/Programs/FirstProgram";
 import SecondProgram from "./pages/Programs/SecondProgram";
 import BackCover from "./pages/BackCover/BackCover";
-import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
 function App() {

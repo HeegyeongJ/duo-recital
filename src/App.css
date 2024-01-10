@@ -106,14 +106,14 @@
 .programs {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
   height: 100%;
 }
 .program-info {
   display: flex;
   justify-content: space-between;
   align-items: end;
-  margin-top: 50px;
+  margin-top: 35px;
   padding-bottom: 10px;
   border-bottom: 1px solid #dedede;
 }
