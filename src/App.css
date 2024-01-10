@@ -12,9 +12,7 @@
 }
 /* Navigation */
 .Navigation {
-  right: 5px !important;
-  top: 90% !important;
-  transform: translate(0, 0) !important;
+  right: 0px !important;
 }
 .Navigation-Anchor {
   background-color: #150e01 !important;
@@ -71,6 +69,7 @@
 }
 .musician-info {
   flex: 0 1 60%;
+  line-height: 1.2;
 }
 .musician-info > em {
   display: block;
