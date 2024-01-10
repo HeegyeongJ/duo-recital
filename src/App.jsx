@@ -6,11 +6,9 @@ import FirstProgram from "./pages/Programs/FirstProgram";
 import SecondProgram from "./pages/Programs/SecondProgram";
 import BackCover from "./pages/BackCover/BackCover";
 import { useState } from "react";
-import Loading from "./pages/Loading/Loading";
 import { useMediaQuery } from "react-responsive";
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
   const isMobile = useMediaQuery({
     query: "(max-width:767px)",
   });
