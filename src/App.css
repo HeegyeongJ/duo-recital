@@ -34,10 +34,10 @@
 }
 .section-title {
   width: 100%;
-  padding: 20px 0;
+  padding: 16px 0;
   border-bottom: 1px solid #150e01;
   text-align: center;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
   font-family: "Playfair Display", serif;
 }
@@ -112,7 +112,7 @@
   display: flex;
   justify-content: space-between;
   align-items: end;
-  margin-top: 35px;
+  margin-top: 30px;
   padding-bottom: 10px;
   border-bottom: 1px solid #dedede;
 }
