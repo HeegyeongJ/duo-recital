@@ -106,7 +106,8 @@
 .programs {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  justify-content: space-around;
+  height: 100%;
 }
 .program-info {
   display: flex;
