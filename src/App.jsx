@@ -5,25 +5,15 @@ import Musicians from "./pages/Musicians/Musicians";
 import FirstProgram from "./pages/Programs/FirstProgram";
 import SecondProgram from "./pages/Programs/SecondProgram";
 import BackCover from "./pages/BackCover/BackCover";
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import Loading from "./pages/Loading/Loading";
+import { useMediaQuery } from "react-responsive";
 
 function App() {
-  const [isMobile, setIsMobile] = useState(false);
-  const handleResize = () => {
-    if (window.innerWidth < 768) {
-      setIsMobile(true);
-    } else {
-      setIsMobile(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
+  const [isLoading, setIsLoading] = useState(true);
+  const isMobile = useMediaQuery({
+    query: "(max-width:767px)",
+  });
 
   let options = {
     anchors: ["main", "musicians", "program1", "program2", "backCover"],
