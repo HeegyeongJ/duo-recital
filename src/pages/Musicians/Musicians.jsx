@@ -4,7 +4,7 @@ import Musician from "../../components/Musician";
 const Musicians = () => {
   const musicians = [
     {
-      imgUrl: "/assets/heegyeong.jpg",
+      imgUrl: "/assets/heegyeong_1.jpg",
       name: "정희경",
       profiles: [
         "Montecito International piano competition, 2nd Prize",
