@@ -14,6 +14,16 @@ const Musicians = () => {
       ],
     },
     {
+      imgUrl: "/assets/heesoo.jpg",
+      name: "이희수",
+      profiles: [
+        "계원예술학교,계원예술고등학교 졸업",
+        "VENUSTO음악인 콩쿠르 우수상",
+        "Phileo Orchestra협연",
+        "숙명여자대학교 피아노과 졸업",
+      ],
+    },
+    {
       imgUrl: "/assets/soohee.jpg",
       name: "홍수희",
       profiles: [
