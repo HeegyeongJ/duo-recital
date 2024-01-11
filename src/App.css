@@ -51,7 +51,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-family: "Noto Serif KR", serif;
 }
 .musician-img {
@@ -80,6 +80,7 @@
   list-style: disc;
   margin-left: 20px;
   font-size: 12px;
+  line-height: 1.4;
 }
 
 /* programs */
@@ -118,6 +119,7 @@
 }
 .program-info p {
   font-family: "Noto Serif KR", serif;
+  line-height: 1.4;
 }
 .program-description {
   margin-top: 18px;
