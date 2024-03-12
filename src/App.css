@@ -52,7 +52,7 @@
   box-sizing: border-box;
   width: 100vw;
   height: 100vh;
-  padding: 0 30px;
+  padding: 0 20px;
   overflow: hidden;
 }
 .Section:first-of-type,
@@ -72,10 +72,11 @@
 /* Musician */
 .musician-list {
   display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  align-items: center;
   width: 100%;
   height: 80vh;
-  margin: 0.5em 0;
-  grid-template-rows: repeat(4, 0.5fr);
+  margin: 1em 0;
 }
 .musician-li {
   display: flex;
@@ -97,19 +98,19 @@
   object-position: 0 10px;
 }
 .musician-info {
-  flex: 0 1 60%;
+  flex: 1 1 60%;
   line-height: 1.2;
 }
 .musician-info > em {
   display: block;
-  margin-bottom: 6px;
-  font-size: 14px;
+  margin-bottom: 2px;
+  font-size: 13px;
   font-weight: 600;
 }
 .musician-profiles {
   list-style: disc;
-  margin-left: 20px;
-  font-size: 10px;
+  margin-left: 1.5em;
+  font-size: 12px;
   line-height: 1.4;
 }
 
