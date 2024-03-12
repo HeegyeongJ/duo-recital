@@ -39,11 +39,11 @@
 }
 /* Navigation */
 .Navigation {
-  right: 0px !important;
+  right: -10px !important;
 }
 .Navigation-Anchor {
   background-color: #150e01 !important;
-  padding: 3.5px !important;
+  padding: 3px !important;
   margin: 7px !important;
 }
 /* Section */
