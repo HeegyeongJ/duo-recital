@@ -1,39 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Musician from "../../components/Musician";
 
 const Musicians = () => {
-  const musicians = [
-    {
-      imgUrl: "/assets/heegyeong_1.jpg",
-      name: "정희경",
-      profiles: [
-        "Montecito International piano competition, 2nd Prize",
-        "YMIC International Competition, Honorable mention",
-        "루마니아 Orchestra Simfonică a Filarmonicii Pitești협연",
-        "숙명여자대학교 피아노과 졸업",
-      ],
-    },
-    {
-      imgUrl: "/assets/heesoo.jpg",
-      name: "이희수",
-      profiles: [
-        "계원예술학교,계원예술고등학교 졸업",
-        "VENUSTO음악인 콩쿠르 우수상",
-        "Phileo Orchestra협연",
-        "숙명여자대학교 피아노과 졸업",
-      ],
-    },
-    {
-      imgUrl: "/assets/soohee.jpg",
-      name: "홍수희",
-      profiles: [
-        "계원예술고등학교 졸업",
-        "숙명여자대학교 성적우수 입학",
-        "숙명여자대학교 피아노과 졸업",
-        "숙명여대 piano ensemble concert 연주",
-      ],
-    },
-  ];
+  const [musicians, setMusicians] = useState([]);
+  const fetchMusicians = () => {
+    fetch("/data/musicians.json")
+      .then((res) => res.json())
+      .then((res) => setMusicians(res));
+  };
+
+  useEffect(() => {
+    fetchMusicians();
+  }, []);
+
   return (
     <>
       <h2 className="section-title">MUSICIANS</h2>
