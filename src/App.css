@@ -158,11 +158,12 @@
 }
 .encore {
   position: absolute;
-  top: 70%;
+  top: 80%;
   left: 50%;
   transform: translateX(-50%);
   font-family: "Noto Serif KR", serif;
   font-style: italic;
+  font-weight: 500;
 }
 
 /* last */
