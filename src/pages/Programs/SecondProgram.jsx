@@ -35,6 +35,7 @@ const SecondProgram = () => {
           <Program program={item} />
         ))}
       </div>
+      <p className="encore">Special Encore</p>
       <div className="bg-flower-bottom">
         <img src="/assets/bg_flower.svg" alt="" />
       </div>

@@ -156,6 +156,14 @@
   font-size: 12px;
   line-height: 2;
 }
+.encore {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Noto Serif KR", serif;
+  font-style: italic;
+}
 
 /* last */
 .back-cover {
