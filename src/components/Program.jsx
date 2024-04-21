@@ -1,6 +1,6 @@
 import React from "react";
 
-const Program = ({ program }) => {
+const Program = ({ program, emphsize }) => {
   return (
     <div>
       <div className="program-info">

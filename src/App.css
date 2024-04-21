@@ -37,6 +37,11 @@
 .bold {
   font-weight: 600;
 }
+.emphasize {
+  margin-bottom: 6px;
+  font-size: 18px;
+  font-style: italic;
+}
 /* Navigation */
 .Navigation {
   right: -10px !important;
